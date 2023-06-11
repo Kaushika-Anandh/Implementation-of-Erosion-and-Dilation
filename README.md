@@ -86,6 +86,10 @@ plt.axis('off')
 <img src="https://github.com/Kaushika-Anandh/Implementation-of-Erosion-and-Dilation/blob/main/2.png" width="350" height="180">
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 **Dilated Image**
 
