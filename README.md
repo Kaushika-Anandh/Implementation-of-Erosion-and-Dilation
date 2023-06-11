@@ -60,15 +60,13 @@ plt.axis('off')
 ```python
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(4,4))
 ```
-**Erode the image**
+**Erode and Dilate the image**
 ```python
 image_erode = cv2.erode(text_image,kernel)
 plt.title("Eroded Image")
 plt.imshow(image_erode,'Blues')
 plt.axis('off')
-```
-**Dilate the image**
-```python
+
 image_dilate = cv2.dilate(text_image,kernel)
 plt.title("Dilated Image")
 plt.imshow(image_dilate,'Blues')
